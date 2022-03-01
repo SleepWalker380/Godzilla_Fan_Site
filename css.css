@@ -1,0 +1,18 @@
+html {
+  font-size: 10px;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  Text-align: center;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+img {
+  max-width: 50%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
