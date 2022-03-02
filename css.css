@@ -16,5 +16,9 @@ img {
   height: auto;
   margin: 0 auto;
 }
-p {
-  font-size: 12px;}
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
