@@ -32,10 +32,10 @@ img {
   height: auto;
   margin: 0 auto;
 }
-.parent {
-  inline-size: 800px;
-}
-.parent > ul {
-  display: inline-block;
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
   text-align: left;
+  line-height: 1.6;
 }
+
