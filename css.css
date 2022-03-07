@@ -1,42 +1,59 @@
-html {
-  font-size: 10px;
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
 }
+
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.6rem;
+  background-color: #eee;
+  font-family: "Helvetica";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
   text-align: center;
 }
-h1 {
-  font-size: 4rem;
-  margin-bottom: 0;
-}
-#main {
-  margin: 30px 8px;
-  padding 20px;
-  border-radius: 5px;
-  background: #eee;
-}
-@media (max-width: 460px){
-  #main {
-    margin: o;
-  }
-}
-#img-div {
-  background: white;
-  padding: 10px;
-  margin: 0;
-}
 img {
-  max-width: 40%;
+  max-width: 15%;
   display: block;
   height: auto;
   margin: 0 auto;
-  box-shadow: 0 0 20px rgba(0,0,0,0.75);
+  border-radius: 50%;
 }
-ul {
-  max-width: 550px;
-  margin: 0 auto 50px auto;
-  text-align: left;
-  line-height: 1.6;
+.description {
+  font-style: italic;
 }
 
+#survey-form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background: #1b1b32;
+  align-items: center;
+  text-align: justify;
+  padding: 10px 5px;
+  border: 1px #000 solid;
+  border-radius: 5px;
+  margin: 10px;
+  width: 30em;
+}
+
+#name-label {
+  font-weight: 700;
+}
+
+.form-group > .form-control {
+  background-color: #ddd;
+}
