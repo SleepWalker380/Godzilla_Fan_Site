@@ -34,7 +34,7 @@ img {
 }
 .parent {
   text-align: center;
-  width: 800px;
+  inline-size: 800px;
 }
 .parent > ul {
   display: inline-block;
