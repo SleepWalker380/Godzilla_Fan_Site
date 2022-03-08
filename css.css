@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
 html {
   font-size: 10px;
 }
@@ -9,8 +11,9 @@ body {
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
 }
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
   margin-bottom: 0;
+  font-family: 'Creepster';
 }
 #main {
   margin: 30px 8px;
@@ -23,6 +26,7 @@ h1 {
     margin: o;
   }
 }
+
 #img-div {
   background: white;
   padding: 10px;
