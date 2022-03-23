@@ -43,4 +43,18 @@ ul {
   margin: 0 auto 50px auto;
   text-align: left;
   line-height: 1.6;
+  padding-bottom: 20px;
+}
+.tribute_link {
+	position: fixed;
+	bottom: 0px;
+	left: 16px;
+	right:16px;
+	border-radius: 5px;
+	background: #eef;
+	text-align: center;
+	font-size: .65em;
+	height: 30px;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
